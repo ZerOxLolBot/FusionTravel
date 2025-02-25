@@ -2,30 +2,68 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="Assets/css/main.css">
+        <script defer src="Assets/js/script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-        <title>Fusion travel</title>
+        <title>Fusion Travel</title>
     </head>
     <body>
-        <header class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <nav class="nav">
-                        <a class="nav__link" href="">Home</a>
-                        <a class="nav__link" href="">Services</a>
-                        <a class="nav__link" href="">About Us</a>
-                        <a class="nav__link" href="">Our Clients</a>
-                        <a class="nav__link" href="">Blog</a>
-                        <a class="nav__link" href="">Contact Us</a>
-                    </nav>
+        <div class="site__header">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <nav class="nav">
+                            <a class="nav__link" href="">Home</a>
+                            <a class="nav__link" href="">Services</a>
+                            <a class="nav__link" href="">About Us</a>
+                            <a class="nav__link" href="">Our Clients</a>
+                            <a class="nav__link" href="">Blog</a>
+                            <a class="nav__link" href="">Contact Us</a>
+                        </nav>
+                        <div class="hotline">Hotline: +1 (800) 123-4567</div>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <div class="intro">
+            </header>
+
+            <!-- Основной блок -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__logo">Fusion Travel</h1>
+                        <h2 class="hero__title">Lets Discover The World Together</h2>
+                        <button class="hero__button">Plan Your Trip</button>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <a class="link__video" href="">
+                            <img class="link__icon" src="Assets/images/Watch_icon.png" alt="Play Icon">
+                            <div class="link__text-wrapper">
+                                <span class="link__text">Watch</span>
+                                <span class="link__highlight">Intro Video</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </footer>  
+        </div>  
+        <section class="fusion">
             <div class="container">
+                <h2 class="fusion__title">Welcome to Fusion</h2>
+                <p class="fusion__text">
+                    Nam consectetur elementum neque vitae condimentum. Aenean dignissim, turpis et tincidunt finibus, 
+                    massa purus malesuada metus, a commodo velit magna nec nibh. Donec dictum fringilla tempus. 
+                    Nunc rhoncus sapien lectus, non fermentum neque euismod quis. Phasellus sagittis tortor in accumsan.
+                </p>
+                <div class="fusion__grid"></div>
+                <div class="fusion__dots"></div>                
             </div>
-        </div>
+        </section>
+            
     </body>
 </html>
